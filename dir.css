@@ -1,0 +1,30 @@
+table.title {
+    font-family: monospace;
+    font-size: 1em;
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #aaa;
+}
+
+table.dir {
+    font-family: monospace;
+}
+
+table.dir thead td {
+    font-weight: bold;
+}
+
+table.dir td {
+    vertical-align: top;
+    white-space: nowrap;
+    padding: 0 0.4em;
+}
+
+table.dir tbody tr {
+    background-color: #fff;
+}
+
+table.dir tbody tr:hover {
+    background-color: #eee;
+}
