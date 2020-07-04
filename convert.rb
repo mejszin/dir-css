@@ -27,7 +27,7 @@ lines.each_with_index do |line, row|
 end
 html_table += "</table>"
 # Construct HTML
-html_head = "<head><title>Dir CSS</title><link rel=\"stylesheet\" type=\"text/css\" href=\"dir.css\"></head>"
+html_head = "<head><title>#{title}</title><link rel=\"stylesheet\" type=\"text/css\" href=\"dir.css\"></head>"
 html_body = "<body>#{html_title}#{html_table}</body>"
 html = "<!DOCTYPE html><html>#{html_head}#{html_body}</html>"
 # Write to file
