@@ -1,5 +1,5 @@
 # dir-css
-Stylesheet for displaying a HTML table list of files
+![Screenshot of website table](https://raw.githubusercontent.com/mejszin/dir-css/master/screenshot.png)
 ## Using the converter Ruby script
 As this stylesheet is for use with file directories, the converter script requires the last cells on each row (excluding header) of the imported CSV file to be a file path. Use the mockaroo.csv example as a reference.
 
@@ -10,5 +10,7 @@ ruby ./convert.rb <input csv path> <export html path> <optional title>
 Example:
 ```
 ruby ./convert.rb ./mockaroo.csv ./index.html "Repository"
+```
+```
 ruby ./convert.rb ./example.csv ./index.html
 ```
